@@ -1,5 +1,3 @@
-# ANN-Classification-Churn
-This project predicts bank customer churn using machine learning. The dataset includes customer demographics, account info, and churn status. Data is preprocessed (encoding, scaling), then split for training/testing. An artificial neural network is trained to classify churn, and TensorBoard is used for model evaluation and visualization.
 # Customer Churn Prediction
 
 This project predicts whether a bank customer will churn (leave the bank) using machine learning and deep learning techniques. It uses the [Churn_Modelling.csv](Churn_Modelling.csv) dataset, which contains customer demographics, account information, and churn status.
@@ -65,6 +63,9 @@ Run `experiments.ipynb` to preprocess data, train the model, and evaluate perfor
     ```
 3. Enter customer details in the web interface to get churn predictions.
 
+**Or try the hosted Streamlit app here:**  
+[https://ann-classification-churn-jj5wqgrjdaag4qrxlg5ysl.streamlit.app](https://ann-classification-churn-jj5wqgrjdaag4qrxlg5ysl.streamlit.app)
+
 ### Prediction Script
 
 Use `pred.ipynb` to test predictions on custom input samples.
@@ -99,4 +100,4 @@ pip install -r req.txt
 
 ## License
 
-This project is for educational purposes.
+This project is for educational
